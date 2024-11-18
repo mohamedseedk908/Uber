@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:uber/screens/splash_screens.dart';
+import 'package:uber/screens/app_splash_screens.dart';
 
 void main() {
   runApp(const Uber());
@@ -13,7 +13,7 @@ class Uber extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: SplashScreen(),
+      home: AppSplashScreen(),
     );
   }
 }
