@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:uber/screens/app_splash_screens.dart';
+import 'package:uber/screens/auth/register_screen.dart';
 
 void main() {
   runApp(const Uber());
@@ -11,9 +11,9 @@ class Uber extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: AppSplashScreen(),
+      home: RegisterScreen(),
     );
   }
 }
